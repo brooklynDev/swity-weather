@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AE0D4D3C193D806C00707630 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D4D3B193D806C00707630 /* main.swift */; };
+		AE0D4D43193D80A300707630 /* weather-retriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D4D42193D80A300707630 /* weather-retriever.swift */; };
+		AE0D4D45193D812200707630 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D4D44193D812200707630 /* weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		AE0D4D38193D806C00707630 /* switfy-weather */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "switfy-weather"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0D4D3B193D806C00707630 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AE0D4D42193D80A300707630 /* weather-retriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "weather-retriever.swift"; sourceTree = "<group>"; };
+		AE0D4D44193D812200707630 /* weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				AE0D4D3B193D806C00707630 /* main.swift */,
+				AE0D4D42193D80A300707630 /* weather-retriever.swift */,
+				AE0D4D44193D812200707630 /* weather.swift */,
 			);
 			path = "switfy-weather";
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0D4D3C193D806C00707630 /* main.swift in Sources */,
+				AE0D4D43193D80A300707630 /* weather-retriever.swift in Sources */,
+				AE0D4D45193D812200707630 /* weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
